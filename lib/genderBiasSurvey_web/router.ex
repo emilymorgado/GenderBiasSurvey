@@ -17,7 +17,9 @@ defmodule GenderBiasSurveyWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
-    get "/hello", HelloController, :index
+    get "/welcome", WelcomeController, :index
+    get "/survey", SurveyController, :index
+    get "/results", ResultsController, :index
   end
 
   # Other scopes may use custom stacks.
