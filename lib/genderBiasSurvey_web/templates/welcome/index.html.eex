@@ -5,4 +5,15 @@
         collected, and learn about what is being done to improve
         gender bias in the workplace.
     </p>
+    <a class="survey-btn" href="/survey">
+        <div class="nav-btn">
+            Survey
+        </div>
+    </a>
+
+    <a class="results-btn" href="/results">
+        <div class="nav-btn">
+            Results
+        </div>
+    </a>
 </div>

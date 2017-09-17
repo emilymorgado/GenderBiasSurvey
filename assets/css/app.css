@@ -1,1 +1,15 @@
 /* This file is for your main application css. */
+
+.nav-btn {
+    height: 50px;
+    width: 120px;
+    background-color: #78c22f;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 15px;
+    font-family:sans-serif;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px #539326;
+}
