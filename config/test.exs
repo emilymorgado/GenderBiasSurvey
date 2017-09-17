@@ -12,8 +12,8 @@ config :logger, level: :warn
 # Configure your database
 config :genderBiasSurvey, GenderBiasSurvey.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "emilymorgado",
+  password: "peoplecare",
   database: "genderbiassurvey_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
