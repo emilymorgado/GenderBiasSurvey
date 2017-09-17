@@ -9,6 +9,10 @@ use Mix.Config
 config :genderBiasSurvey,
   ecto_repos: [GenderBiasSurvey.Repo]
 
+# Configures drab to allow serverside code to manipulate client
+config :phoenix, :template_engines,
+       drab: Drab.Live.Engine
+
 # Configures the endpoint
 config :genderBiasSurvey, GenderBiasSurveyWeb.Endpoint,
   url: [host: "localhost"],
