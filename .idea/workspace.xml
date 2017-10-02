@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c05aca02-1e9e-41bd-8a98-08a6bbc72001" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/genderBiasSurvey/survey/question.ex" afterPath="$PROJECT_DIR$/lib/genderBiasSurvey/survey/question.ex" />
-    </list>
+    <list default="true" id="c05aca02-1e9e-41bd-8a98-08a6bbc72001" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
