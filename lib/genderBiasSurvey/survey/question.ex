@@ -20,3 +20,7 @@ defmodule GenderBiasSurvey.Survey.Question do
     |> validate_required([:node, :format, :next, :question])
   end
 end
+
+#changeset = Question.changeset(%Question{}, %{node: 2, format: "insert", next: [3], question: "Job Title"})
+#{:error, changeset} = Repo.insert(changeset)
+#changeset.errors
